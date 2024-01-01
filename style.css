@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 99vw;
+    font-family: sans-serif;
+    background-color: #C8BD76;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #727064;
+    width: 99vw;
+    height: 7.5vh;
+    margin: 0;
+    padding: 0;
+    z-index: 50;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    height: 95vh;
+    width: 99vw;
+    margin: 0;
+    padding: 0;
+    padding-top: 5vh;
+    padding-bottom: 20vh;
+}
+
+.headerJumpLink {
+    text-decoration: none;
+    color: black;
+    font-family: serif;
+    font-size: 5vh;
+    position: fixed;
+    top: 0.75vh;
+    left: 1vh;
+}
+
+.thaiFlag {
+    grid-row: span 2;
+    grid-column: span 3;
+    background-image: url(./images/thaiFlag.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: solid black 5px;
+    border-radius: 25px;
+    width: 30vw;
+    height: 20vw;
+}
+
+.thaiFlag {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.logo-crop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19vw;
+    height: 10vw;
+    overflow: hidden;
+}
+
+.tankLogo {
+    width: 20vw;
+    height: 14vw;
+}
+
+.thaiFlag>p {
+    font-size: 20px;
+}
+
+.header>div.jump-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+.header h2 {
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.header>a>div>p {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.header>a {
+    text-decoration: none;
+    color: black;
+}
+
+.ww2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
+    align-content: center;
+    justify-items: center;
+    height: 95vh;
+    width: 99vw;
+    margin: 0;
+    padding: 0;
+    padding-top: 5vh;
+}
+
+.ww2>h1 {
+    grid-column: span 2;
+    font-size: 50px;
+}
+
+.ww2>p {
+    text-align: center;
+    width: 550px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    grid-column: span 2;
+    font-size: 25px;
+}
+
+.ww2>img {
+    justify-self: first baseline;
+    padding-bottom: 5vh;
+}
+
+a[href="#type83"] {
+    justify-self: last baseline;
+    padding-right: 10vw;
+    padding-bottom: 5vh;
+}
+
+a[href="#type83"]>img {
+    height: 50vh;
+}
+
+.type83 {
+    height: 95vh;
+    width: 99vw;
+    margin: 0;
+    padding: 0;
+    padding-top: 5vh;
+}
+
+img[src="./images/Type 83.png"].tank {
+    height: 50vh;
+    position: relative;
+    top: 40vh;
+    left: 70vw;
+}
+
+.info.t83 {   
+    position: absolute;
+    top: 225vh;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+    width: 99vw;
+}
+
+.t83>h1 {
+    font-size: 50px;
+    align-self: center;
+}

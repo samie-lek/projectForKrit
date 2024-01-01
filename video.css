@@ -1,0 +1,29 @@
+.video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 99vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.video>* {
+    display: none;
+}
+
+iframe {
+    height: 75vh;
+    width: 133.4vh;
+}
+
+.exit-vid {
+    position: fixed;
+    top: 5vh;
+    right: 10vw;
+    font-size: 40px;
+}
